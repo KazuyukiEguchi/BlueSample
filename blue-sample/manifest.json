@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "bluesample",
+  "version": "1",
+  "permissions" : [{ "bluetooth": [ { "uuid": "00001101-0000-1000-8000-00805f9b34fb" } ] }],
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  }
+}
